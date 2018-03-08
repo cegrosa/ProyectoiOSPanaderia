@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //Aplica el tema sobre la NavigationBar
+        UINavigationBar.appearance().tintColor = .green
+        //Aplicar el tema sobre la tabBar
+        UITabBar.appearance().tintColor = .green
         return true
     }
 

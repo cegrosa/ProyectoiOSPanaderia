@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="FLP-Fm-eB3">
+            <objects>
+                <viewController id="Yc9-qs-BTm" customClass="FirstViewController" customModule="FenixBakery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DpO-1c-7FV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="tXt-rs-Km0">
+                                <rect key="frame" x="112.5" y="312" width="150.5" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2b-Lg-ONQ">
+                                <rect key="frame" x="90.5" y="363" width="194.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="tXt-rs-Km0" secondAttribute="centerX" id="VF3-6x-twJ"/>
+                            <constraint firstAttribute="centerY" secondItem="tXt-rs-Km0" secondAttribute="centerY" id="axM-PF-PcB"/>
+                            <constraint firstItem="a2b-Lg-ONQ" firstAttribute="top" secondItem="tXt-rs-Km0" secondAttribute="bottom" constant="8" symbolic="YES" id="jAi-w0-jcs"/>
+                            <constraint firstItem="a2b-Lg-ONQ" firstAttribute="centerX" secondItem="tXt-rs-Km0" secondAttribute="centerX" id="u7i-7x-ops"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WM0-ks-j01"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="j1z-oP-InZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNn-KA-GcB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="7zo-FJ-dar">
+            <objects>
+                <viewController id="StG-kc-h6U" customClass="SecondViewController" customModule="FenixBakery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NrO-ri-SKR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="76T-Gb-6pL">
+                                <rect key="frame" x="87" y="312" width="201.5" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaM-Dp-Z3q">
+                                <rect key="frame" x="80" y="363" width="215" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TaM-Dp-Z3q" firstAttribute="centerX" secondItem="76T-Gb-6pL" secondAttribute="centerX" id="2Sm-ju-H3g"/>
+                            <constraint firstItem="TaM-Dp-Z3q" firstAttribute="top" secondItem="76T-Gb-6pL" secondAttribute="bottom" constant="8" symbolic="YES" id="Cle-q9-qY3"/>
+                            <constraint firstAttribute="centerY" secondItem="76T-Gb-6pL" secondAttribute="centerY" id="KTa-qX-8rB"/>
+                            <constraint firstAttribute="centerX" secondItem="76T-Gb-6pL" secondAttribute="centerX" id="nct-SL-ynH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CEb-tB-EoY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="wyc-Bf-cBg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bce-9F-QQO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fj1-TT-EHi">
+            <objects>
+                <tabBarController id="Igx-sI-jla" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zfP-61-fkr">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Yc9-qs-BTm" kind="relationship" relationship="viewControllers" id="k5J-A5-kvY"/>
+                        <segue destination="StG-kc-h6U" kind="relationship" relationship="viewControllers" id="0eJ-Mo-CZy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vnx-e8-qzM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
